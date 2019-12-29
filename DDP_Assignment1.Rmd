@@ -1,0 +1,24 @@
+---
+title: "DDP_Assignment1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Today's date is:
+##### Sunday, December 29, 2019
+
+### Load in the leaflet package, but we can ignore this warning for our purposes.
+```{r echo=FALSE}
+library(leaflet)
+```
+
+### Generate a leaflet map below.
+##### Navigate to any part of the world you wish to explore.
+```{r echo=FALSE}
+my_map <- leaflet() %>%
+addTiles()
+my_map
+```
